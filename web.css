@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color:beige;
+}
+ul {
+    list-style-type: none;
+}
+.container{
+    padding: 0 10px ;
+    margin: 0 10px;
+}
+.container .nav-bar .logo-and-links{
+    display: flex;
+    align-items: center;
+}
+.container .nav-bar .logo-and-links img{
+    width: 120px;
+    height: 120px;
+    border-radius: 40%;
+}
+.container .nav-bar .logo-and-links ul{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.container .nav-bar .logo-and-links ul li{
+    margin: 10px;
+    padding: 5px;
+    
+    border-radius: 5px;
+}
+.container .nav-bar .logo-and-links a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+}
+.All-types-of-salad{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+    border-radius: 20px;
+}
+.All-types-of-salad h2{
+    padding-top: 20px;
+    color: rgb(176 96 248);
+    font-family:cursive;
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+.Greek-Grilled-salad{
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px
+}
+.Greek-Grilled-salad h3{
+letter-spacing: 10px;
+}
+.Greek-Grilled-salad img{
+    width: 270px;
+    height: 270px;
+    border-radius: 55px;
+    padding-top: 5px;
+}
+.salad-informations{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
+    grid-template-rows: repeat(4, 180px);
+    padding-top: 10px;
+}
+.salad-informations .advantages , .salad-informations .calories , .salad-informations .ingredients{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+    border-radius: 30px;
+    height: 300px; 
+    line-height: 1.7;
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+.salad-informations .advantages p , .salad-informations .ingredients pre span , .salad-informations .calories p{
+font-size: 25px;
+font-weight: 700;
+color: black;
+}
+.salad-informations .advantages h4 , .salad-informations .ingredients pre{
+    color: rgb(176 96 248);
+    font-weight: 600;
+}
+.salad-informations .ingredients{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* h1 {
+    text-align: center;
+  }
+  
+  .drink {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  } */
+  
+  /* img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  } */
+  
+  
+  
+  /* li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  } */

@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ } 
+ section{
+     min-height: 100vh;
+     background-image: url(breakfast1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 82% 0;
+ }
+ ul{
+     position: absolute;
+     top: 23%;
+     left: 50%;
+     width: 50%;
+ }
+ 
+  ul:hover li a{
+     opacity: .5;
+ 
+ }
+ ul li{
+     list-style: none;
+     margin: 3px 0;
+     width: 100%;
+ }
+ ul div img{
+    width: 190px;
+    height: 190px;
+    border-radius: 40px;
+    position: absolute;
+    right: 140%;
+    bottom: 40%;
+ display: none;
+ }
+ ul div img::before{opacity: 0;
+
+ }
+ 
+  ul li a{
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 500px;
+     background: rgb(59, 101, 47);
+     border-radius: 10px;
+     padding: 0px 15px;
+     display: inline-block;
+     transition: 0.5s;
+     position: relative;
+     margin-top: 10px;
+ }
+ ul li a:hover{
+     transform: scale(1.2);
+     background:rgb(64, 107, 51) ;
+     opacity: 1;
+     transform: translateX(30px);
+     
+ }
+ ul li::after{
+     content: attr(data-text);
+     /* background-color: rgba(0, 0, 0, .5); */
+     color: rgb(0, 0, 0);
+     position: absolute;
+     opacity: 0;
+     /* text-shadow: 2px 2px 3px white; */
+     top: 30%;
+     left: -50%;
+     /* text-align: center; */
+     text-align-last: center;
+     transform: translateX(-45%);
+     font-weight: 900;
+     width: 90%;
+     text-transform: uppercase;
+     pointer-events: none;
+     transition: 0.1s;
+     font-size: 40px;
+     /* line-height: 50px; */
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     height: 300px;
+ }
+ ul li:hover:after{
+     opacity: .8;
+     font-size: 20px;
+     font-family: sans-serif;
+
+ } 
+ 
